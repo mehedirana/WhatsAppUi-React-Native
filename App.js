@@ -4,6 +4,8 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 import ChatScreen from './screens/ChatScreen';
 import CallScreen from './screens/CallScreen';
 import StatusScreen from './screens/StatusScreen';
+import { View } from 'react-native';
+import MyHeader from './screens/MyHeader';
 
 const Tab = createMaterialTopTabNavigator();
 export default function App() {
