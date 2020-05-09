@@ -5,7 +5,6 @@ import MyHeader from '../components/MyHeader';
 const ChatScreen = () => {
     return (
         <View style={styles.container}>
-            <MyHeader/>
             <Text>I am from chat screen!</Text>
         </View>
     );

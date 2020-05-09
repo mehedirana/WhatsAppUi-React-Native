@@ -4,7 +4,7 @@ import { Appbar } from 'react-native-paper';
 
 const MyHeader = () => {
     return (
-            <Appbar.Header style={{backgroundColor:'white'}}>
+            <Appbar.Header style={{backgroundColor:'blue'}}>
             </Appbar.Header>
 
     );

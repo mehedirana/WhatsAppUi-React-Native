@@ -5,7 +5,6 @@ import MyHeader from '../components/MyHeader';
 const CallScreen = () => {
     return (
         <View style={styles.container}>
-            <MyHeader/>
             <Text>i am from call screen</Text>
         </View>
     );

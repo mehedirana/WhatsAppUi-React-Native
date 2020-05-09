@@ -5,7 +5,6 @@ import MyHeader from '../components/MyHeader';
 const StatusScreen = () => {
     return (
         <View style={styles.container}>
-            <MyHeader/>
             <Text>I am from status screen</Text>
         </View>
     );
