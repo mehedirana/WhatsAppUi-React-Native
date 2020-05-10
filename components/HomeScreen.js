@@ -13,7 +13,7 @@ const HomeScreen = () => {
         <Tab.Navigator
             screenOptions={{
                 headerTintColor: 'white',
-                headerStyle: { backgroundColor: '#167c73' },
+                headerStyle: { backgroundColor: '#047a5c' },
             }}
         >
             <Tab.Screen name="chat" component={ChatScreen} />
