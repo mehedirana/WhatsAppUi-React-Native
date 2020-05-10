@@ -1,5 +1,7 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
+import { Card, Title, Paragraph, Button } from 'react-native-paper';
+import { Ionicons } from '@expo/vector-icons';
 
 const CustomView = () => {
 

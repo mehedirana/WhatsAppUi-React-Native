@@ -1,11 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import MyHeader from '../components/MyHeader';
+import CustomView from '../components/CustomView';
 
 const ChatScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>I am from chat screen!</Text>
+            <CustomView/>
+            <CustomView/>
+            <CustomView/>
         </View>
     );
 }

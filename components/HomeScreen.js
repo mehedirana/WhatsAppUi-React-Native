@@ -11,10 +11,11 @@ const HomeScreen = () => {
     return (
         //   <NavigationContainer>
         <Tab.Navigator
-            screenOptions={{
-                headerTintColor: 'white',
-                headerStyle: { backgroundColor: '#047a5c' },
-            }}
+        tabBarOptions={{
+             labelStyle: { fontSize: 15, color:'white', fontWeight:'bold' },
+            // tabStyle: { width: 100 },
+            style: { backgroundColor: '#167c73' },
+          }}
         >
             <Tab.Screen name="chat" component={ChatScreen} />
             <Tab.Screen name="call" component={CallScreen} />

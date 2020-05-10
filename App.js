@@ -2,6 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './components/HomeScreen';
+import { View } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 
 
 const Stack = createStackNavigator();
@@ -12,8 +14,14 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{
-          headerTintColor: 'white',
+          title: 'WhatsApp',    //  color='white' size={30}
           headerStyle: { backgroundColor: '#167c73' },
+          headerTintColor: '#fff', 
+          headerTitleStyle:{
+            fontWeight: 'bold',
+          },
+          headerRight: (<View><Ionicons name="md-calendar" color='white' size={30} /></View>)  
+                  
         }}
       >
         <Stack.Screen name="WhatsApp" component={HomeScreen} />
