@@ -28,14 +28,7 @@ const CustomView = () => {
 
                     </View>
                 </View>
-                <View style={{ flexDirection: "row", justifyContent: 'space-around', padding: 10, }}>
-                    <Button mode="contained" style={{ backgroundColor: '#F86262', borderRadius: 40 }}>
-                        VIEW PROFLE
-                    </Button>
-                    <Button mode="contained" style={{ backgroundColor: '#F86262', borderRadius: 40 }}>
-                        BOOKMARK
-                    </Button>
-                </View>
+            
                 <Card.Content>
                 </Card.Content>
             </Card>

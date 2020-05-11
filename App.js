@@ -19,8 +19,12 @@ export default function App() {
           headerTintColor: '#fff', 
           headerTitleStyle:{
             fontWeight: 'bold',
-          },
-          headerRight: (<View><Ionicons name="md-calendar" color='white' size={30} /></View>)  
+          }, 
+          headerRight: ()=>{
+            <View>
+              <Ionicons name="md-calendar" color='green' size={30} />
+            </View>
+          }
                   
         }}
       >
