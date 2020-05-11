@@ -1,13 +1,17 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View, ScrollView } from 'react-native';
 import CustomView from '../components/CustomView';
 
 const StatusScreen = () => {
     return (
         <View style={styles.container}>
-            <CustomView/>
-            <CustomView/>
-            <CustomView/>
+            <ScrollView>
+                <CustomView name="rajib" />
+                <CustomView name="imran" />
+                <CustomView name="mashuk" />
+                <CustomView name="mehedi" />
+                <CustomView name="shahidulla" />
+            </ScrollView>
         </View>
     );
 }
@@ -17,6 +21,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#fff',
-      
+
     },
 });

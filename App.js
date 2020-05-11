@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './components/HomeScreen';
 import { View } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
+import { Ionicons, Entypo } from '@expo/vector-icons';
 
 
 const Stack = createStackNavigator();
@@ -21,10 +21,12 @@ export default function App() {
             fontWeight: 'bold',
           }, 
           headerRight: ()=>{
-            <View>
-              <Ionicons name="md-calendar" color='green' size={30} />
-            </View>
-          }
+            return(
+              <View style={{flexDirection:'row'}}>
+                <Ionicons name="md-search" color='white' size={30} style={{paddingRight: 23,}}/>
+                <Entypo name="dots-three-vertical" color='white' size={22} style={{paddingRight: 10,}}/>
+              </View>      
+          )}
                   
         }}
       >
